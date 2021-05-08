@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Filter Demo</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Filter 呆毛</h1>
+            <span>选择一个Filter效果</span>
+            <select id='filter-selection'>
+                <option value="grayscale" selected>Grayscale 灰度</option>
+                <option value="sepia">Sepia 褐色</option>
+                <option value="saturate">Saturate 色彩饱和度</option>
+                <option value="hue-rotate">hue-rotate色相旋转</option>
+                <option value="invert">invert反色</option>
+                <option value="opacity">opacity透明度</option>
+                <option value="brightness">brightness亮度</option>
+                <option value="contrast">contrast对比度</option>
+                <option value="blur">blur高斯模糊</option>
+                <option value="drop-shadow">drop-shadow</option>
+            </select>
+            <fieldset>
+                <legend>adjustment 调整</legend>
+                <div id="adjustment">
+                </div>
+            </fieldset>
+            <div id='demo' class="demo">
+                <img src="https://placekitten.com/400/400">
+            </div>
+            <footer>
+                <p>2021 &copy; Ahoukuse</p>
+            </footer>
+        </div>
+        
+    </body>
+</html>

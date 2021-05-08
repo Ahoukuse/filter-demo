@@ -1,0 +1,52 @@
+.demo {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 40%;
+    min-width: 400px;
+    margin: 0px auto;
+}
+#adjustment span {
+    margin-right: 10px;
+}
+
+.grayscale {
+    filter: grayscale(var(--value));
+}
+.sepia {
+    filter: sepia(var(--value));
+}
+.sepia {
+    filter: sepia(var(--value));
+}
+
+.saturate{
+    filter: saturate(var(--value));
+}
+
+.hue-rotate {
+    filter: hue-rotate(var(--value));
+
+}
+.invert {
+    filter: invert(var(--value));
+}
+.opacity {
+    filter: opacity(var(--value));
+}
+.brightness {
+    filter: brightness(var(--value));
+}
+
+.contrast {
+    filter: contrast(var(--value));
+}
+.blur {
+    filter: blur(var(--value));
+}
+.drop-shadow {
+    filter: drop-shadow(var(--x-value) var(--y-value) var(--r-value) var(--color-value));
+}
